@@ -30,6 +30,8 @@ Google Domain DDNS 服务的功能。
 
 3. 项目会通过接口每分钟查询一遍本地的ipv6地址，如果失败会请求ipw的接口尝试获取本地ipv6地址。
 
+4. 项目另外简单打包支持了x86_64环境下的QNAP的应用安装包，将config.ini文件复制到QNAP的/etc/google-ddns-client/config.ini后，在应用商店安装运行该脚本即可。
+
 ## 贡献
 
 欢迎对本项目进行贡献！您可以通过以下方式参与项目：
