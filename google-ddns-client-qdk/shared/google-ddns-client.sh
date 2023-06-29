@@ -22,7 +22,7 @@ case "$1" in
 
     : ADD START ACTIONS HERE
     # Start the server
-    $QPKG_ROOT/google-ddns-client -c /etc/google-ddns-client/config.ini > $QPKG_ROOT/google-ddns-client.log 2>&1 & 
+    $QPKG_ROOT/google-ddns-client -c $QPKG_ROOT/etc/config.ini > $QPKG_ROOT/google-ddns-client.log 2>&1 &
 
     # Capture the PID
     PID=$!
